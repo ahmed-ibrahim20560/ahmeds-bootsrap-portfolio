@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 :root {
   --text-hover-colour: #E27D60;
 }
 
-
 body {
   background-color: 	#41B3A3;
 } 
+/* navbar */
+
 
 /* hero section */
 
@@ -26,7 +38,11 @@ body {
  /* my skills/about me section */
 
  /* My work section */
-
+ .card-image-coming {
+  height: 30vh;
+  
+  
+}
  /* contact me section */
 
  /* footer section  */
