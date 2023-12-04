@@ -8,7 +8,7 @@
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/ff41e917cb.js" crossorigin="anonymous"></script>
   <!-- custom styling link -->
   <link rel="stylesheet" href="./assets/style.css">
 </head>
@@ -43,54 +43,111 @@
     <!-- jumbotron inside hero section  -->
     <div>
       <div class="p-5 mb-4 bg-transparent rounded-3 jumbotron">
-        <div class="container-fluid py-5 jumboCopy relative">
-          <h2 class="display-5 fw-bold">Its time to get in touch</h2>
-          <p class="col-md-12 fs-4"> This portfolio is an example of my work. Scroll to see more amazing designs or
-            click here to get in touch</p>
-          <a href="#Contact" class="btn btn-primary btn-lg jumbotron-button" type="button">Contact Me</a>
+        <div class="container-fluid py-5">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <h2 class="display-5 fw-bold">Its time to get in touch</h2>
+              <p class="col-md-12 fs-4"> This portfolio is an example of my work. Scroll to see more amazing designs or
+                click here to get in touch</p>
+              <a href="#Contact" class="btn btn-primary btn-lg jumbotron-button" type="button">Contact Me</a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              pictures
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        pictures
       </div>
     </div>
   </section>
 
-   <!-- My skills/about me section -->
-  <section class="section" id="About-Me">
-    <div class="section-heading">
-      <h2 id="heading-about-me">About me</h2>
-      <img src="" alt="">
+  <!-- My skills/about me section -->
+  <section class="row m-3" id="About-Me">
+    <div class="col-md-6 col-sm-12">
+      <div class="section-heading">
+        <h2 id="heading-about-me">About me</h2>
+        <img src="" alt="">
+      </div>
+      <div class="section-content">
+        <p> I was recently employed working admin at a General Practice which makes me relatively good at doing tedious
+          work and spending hours repeating the same things. I began working on this edx front-end web development
+          course a month ago, whilst also working on a digital marketing course. </p>
+      </div>
     </div>
-    <div class="section-content">
-       <p> I was recently employed working admin at a General Practice which makes me relatively good at doing tedious work and spending hours repeating the same things. I began working on this edx front-end web development course a month ago, whilst also working on a digital marketing course. </p>
-    </div>
-    <div>
+    <div class="col-md-6 col-sm-12">
       <h2 id="heading-my-skills">My skills</h2>
     </div>
   </section>
   <!-- My work section -->
 
-  <section class="section" >
-    <div class="section-heading">
+  <section class="row m-3">
+    <div class="section-heading row text-center">
       <h2 id="heading-my-work">My Work</h2>
     </div>
-    <div class="section-content" id="grid-section">
-      <a href="https://ahmed-ibrahim20560.github.io/horiseon-code-refactor/" class="project" id="horison"><div class="textone">Horison Code Refactor</div></a>
-      <a href="https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/" class="project" id="ahmedsportfolio"><div class="text">Portfolio Landing Page</div></a>
-      <a href="" class="project" id="project-three"><div class="text">Project 3 Coming Soon!</div></a>
+    <div class="row" id="grid-section">
+      <div class="col-md-4 col-sm-12">
+        <!-- <a href="https://ahmed-ibrahim20560.github.io/horiseon-code-refactor/" class="project" id="horison">
+          <div class="textone">Horison Code Refactor</div>
+        </a> -->
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Horison Code Refactor</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="https://ahmed-ibrahim20560.github.io/horiseon-code-refactor/" class="btn btn-primary">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <!-- <a href="https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/" class="project" id="ahmedsportfolio">
+          <div class="text">Portfolio Landing Page</div>
+        </a> -->
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Horison Code Refactor</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/" class="btn btn-primary">Portfolio
+              Landing Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <!-- <a href="" class="project" id="project-three">
+          <div class="text">Project 3 Coming Soon!</div>
+        </a> -->
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Horison Code Refactor</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
     </div>
-
+  </section>
   <!-- My contact me section -->
-<section class="section">
-  <div id="Contact">
+  <section class="row">
+    <div class="col-sm-12">
 
-  </div>
-</section>
+    </div>
+  </section>
   <!-- footer section -->
-<footer>
-
-</footer>
+  <footer class="row justify-content-center">
+    <div class="col-sm-2">
+      <a href=""><i class="fa-brands fa-github"></i></a>
+    </div>
+    <div class="col-sm-2">
+      <a href=""></a>
+    </div>
+    <div class="col-sm-2">
+      <a href=""></a>
+    </div>
+  </footer>
   <!-- scripts section -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
