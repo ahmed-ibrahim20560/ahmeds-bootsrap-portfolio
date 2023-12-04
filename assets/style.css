@@ -1,3 +1,28 @@
-body {
-  background-color: 	#7393B3;
+:root {
+  --text-hover-colour: #E27D60;
 }
+
+
+body {
+  background-color: 	#41B3A3;
+} 
+
+/* hero section */
+
+.jumbotron {
+  width: 60%;
+}
+
+.jumbotron div a {
+  width: 50%;
+  border-radius: 50px;
+  border-color: white;
+  background-color: transparent;
+} 
+
+.jumbotron div a:hover {
+  background-color: var(--text-hover-colour);
+  border-color: #e8a87c;
+}
+
+
