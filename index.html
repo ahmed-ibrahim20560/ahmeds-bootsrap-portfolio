@@ -8,7 +8,7 @@
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/ff41e917cb.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ff41e917cb.js" crossorigin="anonymous"></script>
   <!-- custom styling link -->
   <link rel="stylesheet" href="./assets/style.css">
 </head>
@@ -17,7 +17,7 @@
   <!-- navigation section -->
   <nav class="navbar navbar-expand-lg bg-transparent" id="mainNav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ahmed'sPortfolio / Bootstrap</a>
+      <a id="nav-heading" class="navbar-brand" href="#">Ahmed'sPortfolio / Bootstrap</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Work</a>
+            <a class="nav-link" href="#my-work">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,7 +49,7 @@
               <h2 class="display-5 fw-bold">Its time to get in touch</h2>
               <p class="col-md-12 fs-4"> This portfolio is an example of my work. Scroll to see more amazing designs or
                 click here to get in touch</p>
-              <a href="#Contact" class="btn btn-primary btn-lg jumbotron-button" type="button">Contact Me</a>
+              <a href="#contact" class="btn btn-primary btn-lg jumbotron-button" type="button">Contact Me</a>
             </div>
             <div class="col-md-4 col-sm-12">
               pictures
@@ -64,7 +64,7 @@
   <section class=" m-3 row" id="About-Me">
     <div class="col-md-6 col-sm-12">
       <div>
-        <h2 id="heading-about-me">About me</h2>
+        <h2 id="about-me">About me</h2>
       </div>
       <div class="section-content">
         <p> I was recently employed working admin at a General Practice which makes me relatively good at doing tedious
@@ -72,10 +72,13 @@
           course a month ago, whilst also working on a digital marketing course. </p>
       </div>
     </div>
-    <div class="col-md-6 col-sm-12">
-      <h2 id="heading-my-skills">My skills</h2>
-      <p> 
-        We spent the first week getting used to using basic HTML and how to use github. We then went on to devloping our HTML knowledge whilst beginning to learn CSS for the next few weeks. We most recently ended with CSS bootstrap. The next topic is Javascript which we will be learning for the next 5 weeks or so before doing our first project.
+    <div id="my-skills" class="col-md-6 col-sm-12">
+      <h2>My skills</h2>
+      <p>
+        We spent the first week getting used to using basic HTML and how to use github. We then went on to devloping our
+        HTML knowledge whilst beginning to learn CSS for the next few weeks. We most recently ended with CSS bootstrap.
+        The next topic is Javascript which we will be learning for the next 5 weeks or so before doing our first
+        project.
       </p>
     </div>
   </section>
@@ -83,7 +86,7 @@
 
   <section class="row m-3">
     <div class=" row text-center">
-      <h2 id="heading-my-work">My Work</h2>
+      <h2 id="my-work">My Work</h2>
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-12">
@@ -91,10 +94,12 @@
           <div class="textone">Horison Code Refactor</div>
         </a> -->
         <div class="card">
-          <img src="./assets/images/horison.png" class="card-img-top" alt="Main landing page which represents the code that was refactored">
+          <img src="./assets/images/horison.png" class="card-img-top"
+            alt="Main landing page which represents the code that was refactored">
           <div class="card-body">
             <h5 class="card-title">Horison Code Refactor</h5>
-            <p class="card-text">This project shows the main page of the code that I refactored. Making sure to only use semantic HTML and ammending the CSS to match accordingly</p>
+            <p class="card-text">This project shows the main page of the code that I refactored. Making sure to only use
+              semantic HTML and ammending the CSS to match accordingly</p>
             <a href="https://ahmed-ibrahim20560.github.io/horiseon-code-refactor/" class="btn btn-primary">Horison</a>
           </div>
         </div>
@@ -105,11 +110,14 @@
           <div class="text">Portfolio Landing Page</div>
         </a> -->
         <div class="card">
-          <img src="./assets/images/screenshot.png" class="card-img-top" alt="an image of a simple landing page which show some of Ahmed's work, about him section and contact info">
+          <img src="./assets/images/screenshot.png" class="card-img-top"
+            alt="an image of a simple landing page which show some of Ahmed's work, about him section and contact info">
           <div class="card-body">
             <h5 class="card-title">Portfolio Landing Page</h5>
-            <p class="card-text">This is my portfolio landing page. Its a simple landing page that was created using only HTML/CSS and without a CSS library</p>
-            <a href="https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/" class="btn btn-primary">Portfolio Page</a>
+            <p class="card-text">This is my portfolio landing page. Its a simple landing page that was created using
+              only HTML/CSS and without a CSS library</p>
+            <a href="https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/" class="btn btn-primary">Portfolio
+              Page</a>
           </div>
         </div>
       </div>
@@ -117,14 +125,16 @@
         <!-- <a href="" class="project" id="project-three">
           <div class="text">Project 3 Coming Soon!</div>
         </a> -->
-          <div class="card">
-            <img src="./assets/images/coming soon 3.jpg" class="card-img-top card-image-coming" alt="an image of a simple landing page which show some of Ahmed's work, about him section and contact info">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">This is a project that is on the way. It will most likely consist of most of the things we have learnt so far namely HTML/CSS whilst increasing our Javascript knowledge.</p>
-              <a href="" class="btn btn-primary">Coming Soon!</a>
-            </div>
+        <div class="card">
+          <img src="./assets/images/coming soon 3.jpg" class="card-img-top card-image-coming"
+            alt="an image of a simple landing page which show some of Ahmed's work, about him section and contact info">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">This is a project that is on the way. It will most likely consist of most of the things
+              we have learnt so far namely HTML/CSS whilst increasing our Javascript knowledge.</p>
+            <a href="" class="btn btn-primary">Coming Soon!</a>
           </div>
+        </div>
         <!-- <div class="card">
           <img src="./assets/images/coming-soon1.jpeg" class="card-img-top card-image-coming" alt="Coming">
           <div class="card-body">
@@ -138,21 +148,40 @@
     </div>
   </section>
   <!-- My contact me section -->
-  <section class="row">
-    <div class="col-sm-12">
-
+  <section id="contact" class="row">
+    <div>
+      <div class="col-md-6  col-sm-12">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- footer section -->
   <footer class="row justify-content-center">
     <div class="col-sm-2">
-      <a href=""><i class="fa-brands fa-github"></i></a>
+      <a href="https://github.com/ahmed-ibrahim20560"><i class="fa-brands fa-github"></i></a>
     </div>
     <div class="col-sm-2">
-      <a href=""></a>
+      <a href=""><i class="fa-solid fa-phone"></i></a>
     </div>
     <div class="col-sm-2">
-      <a href=""></a>
+      <a href=""><i class="fa-solid fa-envelope"></i></a>
     </div>
   </footer>
   <!-- scripts section -->
