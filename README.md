@@ -8,3 +8,5 @@ I made sure to include a styled nav and footer with working links to make the pa
 https://ahmed-ibrahim20560.github.io/ahmeds-bootsrap-portfolio/ 
 
 https://github.com/ahmed-ibrahim20560/ahmeds-bootsrap-portfolio
+
+https://ahmed-ibrahim20560.github.io/ahmed-ibrahim-portfolio/
