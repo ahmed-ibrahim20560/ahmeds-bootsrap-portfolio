@@ -50,15 +50,41 @@ li a:hover {
   border-color: #e8a87c;
 }
 
+ #ahmed-ibrahim {
+  background-image: url(./images/IMG_2134.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
  /* my skills/about me section */
-
+#About-Me {
+  margin-top: 100px;
+}
 
  /* My work section */
+#my-work {
+  margin-top: 100px;
+}
+
  .card-image-coming {
   height: 30vh;
 }
  /* contact me section */
 
+ #contact {
+  margin-top: 100px;
+ }
+
  /* footer section  */
+
+ #footer-margin {
+  margin-top: 100px;
+  background-color: black;
+  height: 100px;
+  align-items: center;
+ }
+
+ i {
+  font-size: 30px;
+ }
 
 
